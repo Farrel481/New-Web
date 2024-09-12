@@ -1,0 +1,173 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farrel's Professional Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Header styling */
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #282c34; /* Dark background */
+            padding: 20px;
+            color: white;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        /* Profile image on the left */
+        .profile-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        /* Name and title on the right */
+        .profile-info {
+            flex-grow: 1;
+            padding-left: 20px;
+        }
+
+        .profile-info h1 {
+            margin: 0;
+            font-size: 24px;
+            color: #FFD700; /* Gold color for the name */
+        }
+
+        .profile-info h2 {
+            margin: 5px 0 0;
+            font-size: 18px;
+            font-weight: 400;
+            color: #aaa;
+        }
+
+        /* Main content area */
+        main {
+            margin-top: 150px;
+            padding: 40px;
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        section {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        section h2 {
+            color: #FFD700; /* Gold color for section titles */
+            margin-bottom: 20px;
+        }
+
+        /* Portfolio section */
+        .project {
+            margin-bottom: 20px;
+        }
+
+        .project h3 {
+            margin: 0 0 10px;
+            color: #282c34;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #282c34;
+            color: white;
+        }
+
+        footer a {
+            color: #FFD700;
+            text-decoration: none;
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+                text-align: left;
+            }
+
+            .profile-info {
+                padding-left: 0;
+                margin-top: 10px;
+            }
+
+            main {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="profile-photo.jpg" alt="Profile Photo" class="profile-img">
+        <div class="profile-info">
+            <h1>Farrel's Portfolio</h1>
+            <h2>Web Developer & Software Engineer</h2>
+        </div>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm Farrel, a passionate web developer and software engineer specializing in creating elegant, responsive websites and applications. My focus is on building scalable, user-friendly products that solve real-world problems. With a background in web technologies such as HTML, CSS, JavaScript, and React, I am always exploring new frameworks and tools to enhance my development workflow.</p>
+        </section>
+
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+
+            <div class="project">
+                <h3>Project 1: Responsive Blog Website</h3>
+                <p>A modern and responsive blog platform built using HTML, CSS, and JavaScript, with dynamic loading features and an optimized user interface.</p>
+                <a href="https://github.com/Farrel/project1" target="_blank">View Project</a>
+            </div>
+
+            <div class="project">
+                <h3>Project 2: E-commerce Application</h3>
+                <p>A full-stack e-commerce web application designed with React for the frontend and Node.js for the backend, featuring product management, user authentication, and payment integration.</p>
+                <a href="https://github.com/Farrel/project2" target="_blank">View Project</a>
+            </div>
+
+            <div class="project">
+                <h3>Project 3: Portfolio Website</h3>
+                <p>This portfolio site, built with modern design principles using HTML, CSS, and JavaScript, aimed at showcasing my skills and projects in a professional manner.</p>
+                <a href="https://github.com/Farrel/portfolio-website" target="_blank">View Project</a>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>If you'd like to get in touch, feel free to reach out via any of the methods below:</p>
+            <ul>
+                <li>Email: <a href="mailto:farrel@example.com">farrel@example.com</a></li>
+                <li>Phone: <a href="tel:+6285712614">+62 8571 2614</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/farrel" target="_blank">LinkedIn</a></li>
+                <li>GitHub: <a href="https://github.com/Farrel" target="_blank">GitHub</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Farrel's Portfolio | <a href="https://farrel.github.io" target="_blank">farrel.github.io</a></p>
+    </footer>
+</body>
+</html>
